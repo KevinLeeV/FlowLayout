@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // 是否是多选模式
+    <attr name="flow_isMultiSelect" format="boolean" />
+    // 多选模式下,正常的view的背景
+    <attr name="flow_background_normal" format="reference" />
+    // 多选模式下,被选中的view的背景
+    <attr name="flow_background_selected" format="reference" />
+    // 单选模式下,view的背景
+    <attr name="flow_background" format="reference" />
+    // textView的字体大小
+    <attr name="flow_textSize" format="dimension" />
+    // textView的字体颜色
+    <attr name="flow_textColor" format="color" />
+    // 多选模式下,textView被选中的字体颜色
+    <attr name="flow_textSelectedColor" format="color" />
+    // 内边距
+    <attr name="flow_padding" format="dimension" />
+    <declare-styleable name="FlowLayout">
+        <attr name="flow_isMultiSelect" />
+        <attr name="flow_background_normal" />
+        <attr name="flow_background_selected" />
+        <attr name="flow_background" />
+        <attr name="flow_textSelectedColor" />
+        <attr name="flow_textSize" />
+        <attr name="flow_textColor" />
+        <attr name="flow_padding" />
+    </declare-styleable>
+
+</resources>
